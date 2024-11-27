@@ -9,7 +9,7 @@ while True:
         try:
             num = int(input("enter a number in range limit:"))
             if num < random_num:
-                print("the main number is bigger than yours")
+                print("the main number is bigger than yours,enter a number bigger than this")
             elif num > random_num:
                 print("the main number is smaller than yours,enter a number smaller than this")
             else:
